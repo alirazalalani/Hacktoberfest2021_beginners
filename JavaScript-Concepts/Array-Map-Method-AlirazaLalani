@@ -1,0 +1,8 @@
+//create an array of integers or string depends on you
+let arr = ["ali", "mohammad", "raza", "lalani"];
+//if we want to print all the values of an array we can simply use map method, map method is only applicable on arrays
+//the syntax is given blow, map method accept 3 arguments  value,index and a call back function mostly we use value and index, all the data of array is stored in the value and the index number is stored in index argument if we print using the consol.log command the data of the array will be printed on console.
+
+arr.map((val, index) => {
+  console.log(index + " " + val);
+});
